@@ -1,0 +1,33 @@
+{
+  "rules": {
+    "comma-dangle": [
+      2,
+      "always-multiline"
+    ],
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "func-names": 0,
+    "no-console": 1,
+    "max-len": 0,
+    "prefer-template": 2,
+    "no-use-before-define": 0,
+    "newline-per-chained-call": 0,
+    "arrow-body-style": [
+      2,
+      "as-needed"
+    ]
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb/base"
+  ]
+}

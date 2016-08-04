@@ -1,0 +1,13 @@
+{
+  "globalDependencies": {
+    "bluebird": "registry:dt/bluebird#2.0.0+20160701023356",
+    "express": "registry:dt/express#4.0.0+20160708185218",
+    "hapi": "registry:dt/hapi#13.0.0+20160709092105",
+    "http-status": "registry:dt/http-status#0.2.1+20160412142223",
+    "joi": "registry:dt/joi#9.0.0+20160626220651",
+    "kue": "registry:dt/kue#0.9.0+20160316155526",
+    "mongoose": "registry:dt/mongoose#4.5.4+20160721201159",
+    "redis": "registry:dt/redis#0.12.1+20160619023014",
+    "winston": "registry:dt/winston#0.0.0+20160417152829"
+  }
+}
