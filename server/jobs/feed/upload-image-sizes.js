@@ -8,7 +8,7 @@ let bucket;
 function upload(stream) {
   if (!bucket) {
     bucket = gcloud.storage({
-      projectId: process.env.GCS_PROJECT_ID,
+      projectId: 'poetic-genius-139107',
       credentials: {
         private_key: process.env.GCS_PRIVATE_KEY,
         client_email: process.env.GCS_CLIENT_EMAIL,
