@@ -1,14 +1,14 @@
 import Joi from 'joi';
 
 export default {
-  // GET /api/feed
+  // GET /feed
   getFeed: {
     query: {
       url: Joi.string().required(),
     },
   },
 
-  // POST /api/recent
+  // POST /recent
   recent: {
     body: {
       podcastIds: Joi.array().required(),
